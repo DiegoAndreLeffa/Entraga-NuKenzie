@@ -1,0 +1,93 @@
+
+.list{
+    margin: 0;
+    padding: 0;
+
+    margin-top: 20px;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+}
+.liVerde {
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid #03B898;
+    border-radius: 10px;
+    padding-left: 5px;
+    width: 85%;
+}
+.liVerde h2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #212529;
+}
+.liCinza {
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid #E9ECEF;
+    border-radius: 10px;
+    padding-left: 5px;
+    width: 85%;
+}
+.liCinza h2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #212529;
+}
+.list li div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list li div > img {
+    width: 30px;
+    height: 30px;
+
+    cursor: pointer;
+}
+
+.list > div {
+    width: 90%;
+}
+.list > div img {
+    width: 100%;
+}
+
+
+@media (min-width: 1024px) {
+    .list {
+        height: 405px;
+    }
+    .liVerde{
+        width: 95%;
+        height: 70px;
+        justify-content: center;
+    }
+    .liVerde h2 {
+        font-size: 20px;
+
+    }
+    .liCinza{
+        width: 95%;
+        height: 70px;
+        justify-content: center;
+    }
+    .liCinza h2 {
+        font-size: 20px;
+    }
+}

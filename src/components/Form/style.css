@@ -1,0 +1,155 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px 10px;
+    gap: 10px;
+
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+}
+.form > label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #212529;
+}
+.form > input {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #868E96;
+    border: none;
+}
+.form input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+}
+.form > small {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #868E96;
+}
+.form > div {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+
+.valor{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #212529;
+}
+.valor div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.valor input {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 10px;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #868E96;
+}
+
+.entradas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #212529;
+}
+.entradas div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.entradas select {
+    width: 100px;
+    height: 50px;
+    border: none;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+
+    color: #343A40;
+}
+.entradas select option {
+    border: none;
+}
+
+.form button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 20px;
+    gap: 10px;
+
+    background: #FD377E;
+
+    border: 2px solid #FD377E;
+    border-radius: 8px;
+
+    color: #F8F9FA;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    cursor: pointer;
+}
+
+
+@media (min-width: 325px) {
+    .form{
+        align-items: center;
+    }
+}
+
